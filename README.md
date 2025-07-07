@@ -5,7 +5,7 @@ This specific repository was created and maintained by TACC intern Kaylee Scanli
 It is built with ReadtheDocs & Sphinx: https://app.readthedocs.org/dashboard/
 
 ### How to use 
-ReadTheDocs handles hosting the website. You can view the tutorial website at:
+ReadTheDocs handles hosting the website. You can view the tutorial website at: https://cwic.readthedocs.io/en/latest/index.html
 
 **If you wish to be added as an editor,** contact Kaylee or Venella to be added to the Github Repository, which the ReadtheDocs website scans for content and updates automatically.
 
