@@ -4,7 +4,7 @@ This page walks you through each tool on the sidebar to the far right of the CFD
 
 .. image:: _static/sidebar-images/sidebar1.png
    :alt: TACC create an account
-   :width: 120px
+   :width: 1200px
 
 Upload 
 ------
@@ -18,7 +18,7 @@ To upload a dataset, click on Upload. There should be four options available to 
 
 .. image:: _static/sidebar-images/upload1.png
    :alt: TACC create an account
-   :width: 120px
+   :width: 1200px
 
 - **Regular** – for uploading singular flat files (e.g., `.CSV`, `.TXT`, or `.FASTQ`)
 
