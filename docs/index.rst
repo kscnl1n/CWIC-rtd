@@ -28,7 +28,22 @@ Here you should see a log-in page. If you have an account with CFDE already, log
 
 .. image:: _static/homepage-images/login1.png
    :alt: Tapis login
-   :width: 400px
+   :width: 1000px
+
+You will then be taken to a page on the TACC website:
+
+.. image:: _static/homepage-images/login2.png
+   :alt: TACC create an account
+   :width: 1500px
+
+**Your request to create a TACC account may take up to 48 hours.**
+More information about creating a TACC account: https://tacc.utexas.edu/use-tacc/getting-started/
+
+Once you have successfully logged in, you should see this screen:
+
+.. image:: _static/homepage-images/login3.png
+   :alt: TACC create an account
+   :width: 1000px
 
 
 
@@ -41,4 +56,5 @@ Here you should see a log-in page. If you have an account with CFDE already, log
    :caption: Contents:
 
    /Sidebar/Sidebar
+   
 
