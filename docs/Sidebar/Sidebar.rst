@@ -4,10 +4,12 @@ This page walks you through each tool on the sidebar to the far right of the CFD
 
 .. image:: _static/sidebar-images/sidebar1.png
    :alt: TACC create an account
+   :align: center
    :width: 1200px
 
-Upload 
+Upload
 ======
+
 The upload bar allows you to upload datasets to the CFDE workspace. It is a convenient way to upload and access large datasets you need available on CFDE machines. 
 
 For additional tutorials on running machine learning processes on these datasets, see **Creating Your Own Workflow.**
@@ -16,10 +18,12 @@ For additional tutorials on running machine learning processes on these datasets
 
 Uploading a dataset
 ---------------------
+
 To upload a dataset, click on Upload. There should be four options available to you:
 
 .. image:: _static/sidebar-images/upload1.png
-   :alt: TACC create an account
+   :alt: Upload screen
+   :align: center
    :width: 1200px
 
 - **Regular** – for uploading singular flat files (e.g., `.CSV`, `.TXT`, or `.FASTQ`)
@@ -48,6 +52,10 @@ Tools
 -----
 This opens the preexisting library of NIH-created analysis tools. A majority of the data analysis will be done here.
 
+.. image:: _static/sidebar-images/tools1.png
+   :alt: Tools
+   :width: 1200px
+
 Because of the volume of tools in the CFDE galaxy interface, there is a search bar for ease of finding.
 
 **Tool Interface**
@@ -65,3 +73,11 @@ And ask your Galaxy Admin to install it for you. There is currently no way for u
 
 Workflows
 ---------
+**Workflows** are saved, pre-existing pipelines for data processing and analysis. Each step takes an input (dataset), sends it to a tool for one part of the processing pipeline, and then hands it off to the next tool for the next part. 
+
+The CFDE galaxy workspace does not come with pre-installed workflows–when you open the workflow space, you should see that they are empty:
+.. image:: _static/sidebar-images/workflow1.png
+   :alt: Empty workflows page
+   :align: center
+   :width: 1200px
+
