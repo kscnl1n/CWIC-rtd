@@ -28,9 +28,9 @@ Creating an Account
 
 Here you should see a log-in page. If you have an account with CFDE already, log in using your username and password. If not, click ‘create account’ to create an account with TACC.
 
-.. image:: docs/homepage-images/login1.png
+.. image:: _static/homepage-images/login1.png
    :alt: Tapis login
-
+   :width: 400px
 
 
 
