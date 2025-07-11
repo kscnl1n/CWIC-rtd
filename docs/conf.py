@@ -5,7 +5,7 @@ import os
 import sys
 sys.path.insert(0, os.path.abspath('..'))  # or '.' if you're documenting a standalone project
 
-project = 'MyProject'
+project = 'CFDE Workspace'
 author = 'Your Name'
 release = '0.1'
 master_doc = 'index'
