@@ -61,15 +61,15 @@ To change anything about your account, you need to go into your account settings
    :width: 1200px
 
 Here, you can:
-- **Manage Information** - Manage your personal information.
-- **Manage Toolbox Filters** - Customize your toolbox.
-- **Set dataset permissions** 
-- **Manage API keys** - For interacting with other applications using CFDE Cloud.
+
+- **Manage Information** – Manage your personal information.
+- **Manage Toolbox Filters** – Customize your toolbox.
+- **Set dataset permissions**
+- **Manage API keys** – For interacting with other applications using CFDE Cloud.
 - **Manage notification settings**
 - **Manage custom builds**
 - **Make data private**
 - **Sign Out**
-
 
 
 
