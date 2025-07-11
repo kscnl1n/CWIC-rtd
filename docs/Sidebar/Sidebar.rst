@@ -39,5 +39,5 @@ To upload a dataset, click on Upload. There should be four options available to 
 
   For assistance troubleshooting data uploads, click the question mark in the upper right corner for community support.
 
-
+To see a full tutorial for uploading a dataset and running a machine learning process on it, see **Creating Your Own Workflow.**
 
