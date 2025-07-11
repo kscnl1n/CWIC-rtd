@@ -1,5 +1,3 @@
-# Welcome to the CFDE Workspace!
-
 Welcome to the CWIC Workspace!
 =============================
 Purpose
@@ -8,11 +6,11 @@ The Common Fund Data Ecosystem (CFDE) platform is a workspace where researchers 
  Built in collaboration with the Texas Advanced Computing Center (TACC’s) HPC systems and the NIH’s suite of scientific tools, it is meant to assist researchers in computationally-heavy task whilst offering the 
  functionality of several pre-developed research tools in the same suite.
 
-To learn more about the CFDE, click here: 'https://commonfund.nih.gov/dataecosystem <https://commonfund.nih.gov/dataecosystem>'_
+To learn more about the CFDE, click here: https://commonfund.nih.gov/dataecosystem 
 
 Accessing CFDE Galaxy
 --------------------
-Access the website through: 'https://cfdeworkspace.org/<https://cfdeworkspace.org/>'usage_guide
+Access the website through: https://cfdeworkspace.org/<https://cfdeworkspace.org/
 
 Galaxy
 -------------------
