@@ -8,6 +8,8 @@ sys.path.insert(0, os.path.abspath('..'))  # or '.' if you're documenting a stan
 project = 'MyProject'
 author = 'Your Name'
 release = '0.1'
+master_doc = 'index'
+
 
 extensions = [
     'sphinx.ext.autodoc',
