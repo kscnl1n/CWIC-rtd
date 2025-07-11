@@ -81,3 +81,21 @@ The CFDE galaxy workspace does not come with pre-installed workflows–when you 
    :align: center
    :width: 1200px
 
+.. image:: _static/sidebar-images/workflow2.png
+   :alt: Empty workflows page
+   :align: center
+   :width: 1200px
+
+**My Workflows**
+This is where you can find workflows you have installed into your Galaxy workspace. 
+
+**Workflows Shared with Me**
+This is where you can find workflows you have with other people. 
+
+**Public Workflows**
+Public workflows are ones publicly-available for anyone to download.
+Because the CFDE galaxy is still in development, there are currently no workflows available for download.
+
+Creating/Importing workflows
+============================
+To the far right of the Workflows tab, you should see two buttons create and import. These are currently the only way to get a workflow pipeline into the CFDE Galaxy portal.
