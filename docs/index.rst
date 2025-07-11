@@ -52,6 +52,30 @@ When you have your account set up, you should be taken to **this** homepage:
    :alt: TACC create an account
    :width: 700px
 
+User Settings
+-------------
+To change anything about your account, you need to go into your account settings. To go into your account settings, click on your username in the top right. It should bring you to ‘User Preferences’:
+
+.. image:: _static/user-preference-images/userpref1.png
+   :alt: TACC create an account
+   :width: 1200px
+
+Here, you can:
+- **Manage Information** - Manage your personal information.
+- **Manage Toolbox Filters** - Customize your toolbox.
+- **Set dataset permissions** 
+- **Manage API keys** - For interacting with other applications using CFDE Cloud.
+- **Manage notification settings**
+- **Manage custom builds**
+- **Make data private**
+- **Sign Out**
+
+
+
+
+
+
+
 
 
 .. toctree::
