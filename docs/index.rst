@@ -10,7 +10,7 @@ To learn more about the CFDE, click here: https://commonfund.nih.gov/dataecosyst
 
 Accessing CFDE Galaxy
 --------------------
-Access the website through: https://cfdeworkspace.org/<https://cfdeworkspace.org/
+Access the website through: https://cfdeworkspace.org/
 
 Galaxy
 -------------------
