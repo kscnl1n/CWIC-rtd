@@ -15,10 +15,16 @@ extensions = [
     'myst_parser',  # only needed if you're using Markdown
 ]
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+
 templates_path = ['_templates']
 exclude_patterns = []
 
 # HTML theme
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 
