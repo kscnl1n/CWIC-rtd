@@ -94,9 +94,6 @@ Click 'next: Sidebar Tools' for information on how to use them.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Other pages:
 
-   /Sidebar/Sidebar
-   /Creating a Workflow/creating-workflow
    
 
