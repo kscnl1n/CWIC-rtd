@@ -83,5 +83,6 @@ Here, you can:
    :caption: Contents:
 
    /Sidebar/Sidebar
+   /Creating a Workflow/creating-workflow
    
 
