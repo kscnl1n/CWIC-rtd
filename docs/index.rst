@@ -43,7 +43,8 @@ Once you have successfully logged in, you should see this screen:
 
 .. image:: _static/homepage-images/login3.png
    :alt: TACC create an account
-   :width: 800px
+   :width: 500px
+   :align: center
 
 Click ‘Connect’. 
 When you have your account set up, you should be taken to **this** homepage:
