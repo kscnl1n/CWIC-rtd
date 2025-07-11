@@ -71,7 +71,21 @@ Here, you can:
 - **Make data private**
 - **Sign Out**
 
+History
+-------
+There is a toggle-able history sidebar on the right that will display recent activity in the CFDE galaxy portal, as well as their statuses and any error messages that might pop up.
 
+.. note::
+    If this gets in the way, you can delete using the trash can icon to clear the history tab. (Your data will still be stored under 'datasets'.)
+
+.. image:: _static/homepage-images/history.png
+   :alt: TACC create an account
+   :width: 1200px
+
+Sidebar
+-------
+You may notice there is a sidebar of tools to the far right. 
+Click 'next: Sidebar Tools' for information on how to use them.
 
 
 
@@ -80,7 +94,7 @@ Here, you can:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Other pages:
 
    /Sidebar/Sidebar
    /Creating a Workflow/creating-workflow
