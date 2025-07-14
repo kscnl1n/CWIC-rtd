@@ -54,7 +54,8 @@ This opens the preexisting library of NIH-created analysis tools. A majority of 
 
 .. image:: _static/sidebar-images/tools1.png
    :alt: Tools
-   :width: 1200px
+   :align: center
+   :width: 800px
 
 Because of the volume of tools in the CFDE galaxy interface, there is a search bar for ease of finding.
 
@@ -103,9 +104,10 @@ To the far right of the Workflows tab, you should see two buttons create and imp
 .. image:: _static/sidebar-images/workflow3.png
    :alt: Empty workflows page
    :align: center
-   :width: 600px
+   :width: 400px
 
 **Importing a Workflow**
+
 There are 3 ways to install a new workflow:
     - **Upload from the CFDE workflow library**
         -  Typically in Galaxy workflows, there is a list of pre-installed workflows by the administrative team. Currently, there are no pre-installed workflows, so the current list of public workflows is empty.
@@ -160,8 +162,6 @@ We will be using data from the dataset: https://zenodo.org/records/6543357
 
 **Step 1. Create a workflow**
 Click the ‘create’ tile in the upper right corner. You will be taken to a screen like this:
-
-**TESTING**
 
 .. image:: _static/sidebar-images/create-workflow-1.png
    :alt: Creating a workflow
@@ -349,24 +349,31 @@ Your qiime tools import tab should now look like this and take 2 input datasets 
 **Workflow summary**
 
 **1. qiime2 tools import**
+
 This tool is the gateway into QIIME2. It converts your raw sequencing data — in this case, paired-end FASTQ files — into QIIME2's .qza artifact format. This is essential because QIIME2 workflows require data to be in artifact form to ensure provenance tracking and compatibility with its internal tools. When working with paired-end demultiplexed reads, you provide a manifest file that maps each sample to its corresponding forward and reverse read files. This tool ensures the data structure is correct and prepares it for downstream processing.
 
 **2. qiime2 cutadapt trim-paired**
+
 This step trims unwanted adapter sequences and primers from your raw reads. Residual adapter or primer contamination can affect quality filtering and downstream analysis, so this tool is crucial to clean up the reads. It processes both forward and reverse reads simultaneously, ensuring synchronization between read pairs. This step improves data quality and read alignment in subsequent steps.
 
 **3. qiime2 quality-filter q-score**
+
 After trimming, this tool filters reads based on their quality scores. Poor-quality reads, especially those with low Phred scores toward the 3' end, can introduce errors in sequence denoising and classification. This tool evaluates per-base quality and removes sequences that fall below a chosen threshold. The result is a cleaner dataset that more accurately reflects the underlying biological sequences.
 
 **4. qiime2 dada2 denoise-paired**
+
 This is one of the most critical steps. DADA2 denoising corrects sequencing errors and collapses similar reads into amplicon sequence variants (ASVs), which are high-resolution alternatives to traditional OTUs. It also removes chimeric sequences and calculates a feature table — a matrix of ASV counts across your samples — as well as representative sequences. This tool effectively transforms noisy read data into biologically meaningful units for analysis.
 
 **5. qiime2 feature-table filter-features**
+
 This tool allows you to refine your dataset by filtering out rare features or those associated with low-depth samples. These might represent sequencing noise, contaminants, or non-informative artifacts. Filtering can be based on abundance, prevalence, or sample metadata. This step helps reduce noise and makes statistical analyses and visualizations more robust and interpretable.
 
 **6. qiime2 feature-classifier classify-sklearn**
+
 Here, you use a machine learning model — a naïve Bayes classifier — to assign taxonomy to your representative sequences. In the context of ARG detection, you would train this classifier on a custom antibiotic resistance gene (ARG) database like CARD, ResFinder, or ARG-ANNOT. Once trained, the classifier matches your ASVs to known ARG categories, producing a .qza taxonomy file that links your sequences to specific ARGs. This is how you derive biological meaning from your sequencing results.
 
 **7. Qiime2 feature-table heatmap**
+
 This tool is for visualization and interpretation.Feature-table heatmap provides a visual matrix of ARGs by sample, allowing you to quickly assess presence, abundance, and clustering. These outputs (.qzv files) can be viewed in Galaxy or QIIME2 View and are essential for sharing and interpreting your results.
 
 Congratulations! Now you have a completed workflow. Now **let's add the input:**
@@ -400,4 +407,10 @@ You should now see our workflow present in **Workflows:**
    :width: 1200px
 
 Congratulations! You now have a completed workflow.
+
+Using Workflows
+===============
+Let's test our new workflow out.
+
+
 
