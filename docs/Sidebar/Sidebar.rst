@@ -187,14 +187,14 @@ https://zenodo.org/records/6543357
 
 Unzip them on your local machine, then upload them using the **‘Datasets’** tab as a **collection** dataset. When they are finished uploading, click **build:**
 
-.. image:: _static/sidebar-images/upload-workflow-1.png
+.. image:: _static/sidebar-images/upload-workflow1.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
 
 You will now see this under the Datasets and Histories tabs.
 
-.. image:: _static/sidebar-images/upload-workflow-2.png
+.. image:: _static/sidebar-images/upload-workflow2.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
@@ -202,14 +202,14 @@ You will now see this under the Datasets and Histories tabs.
 **Step 3. Add quality control tools**
 Navigate back to **‘workflows’** and click on the workflow we have created. Click the ‘edit’ button. 
 
-.. image:: _static/sidebar-images/upload-workflow-3.png
+.. image:: _static/sidebar-images/upload-workflow3.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
 
 When you open your workflow, you will see a multitude of tools on the sidebar:
 
-.. image:: _static/sidebar-images/upload-workflow-4.png
+.. image:: _static/sidebar-images/upload-workflow4.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
@@ -238,21 +238,21 @@ As you can see, the Workflow editor is almost like a Figma board, where you can 
 
 Now that we are in the workflow edit screen, click the Tools button on the main sidebar (furthest to the right), and the tools list should pop up next to the workflow editor screen:
 
-.. image:: _static/sidebar-images/upload-workflow-5.png
+.. image:: _static/sidebar-images/upload-workflow5.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
 
 We will be using a QIIME-based workflow for our genomic analysis. First, click on the far right tab under ‘tools’ and search for **qiime2 tools import.** This is an abstracted representation of our input dataset, and will allow us to upload data into our pipeline to work with qiime2 in .qza form.
 
-.. image:: _static/sidebar-images/upload-workflow-6.png
+.. image:: _static/sidebar-images/upload-workflow6.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
 
 Upon clicking on it, you should see the following tab appear in your workspace:
 
-.. image:: _static/sidebar-images/upload-workflow-7.png
+.. image:: _static/sidebar-images/upload-workflow7.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
@@ -261,14 +261,14 @@ On the far right screen, you can choose to add labels, step annotations, and oth
 
 Next, go to the toolbar and search for **qiime2 cutadapt trim-paired.** Add it to your workflow:
 
-.. image:: _static/sidebar-images/upload-workflow-8.png
+.. image:: _static/sidebar-images/upload-workflow8.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
 
 Click on the tiny arrow button to the right of the box and drag it to connect to the qiime2 cutadapt trim-paired box:
 
-.. image:: _static/sidebar-images/upload-workflow-9.png
+.. image:: _static/sidebar-images/upload-workflow9.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
@@ -313,7 +313,7 @@ Now go back to tools, and import and connect, in order:
 
 **Your workflow should look like this:**
 
-.. image:: _static/sidebar-images/upload-workflow-10.png
+.. image:: _static/sidebar-images/upload-workflow10.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
@@ -325,14 +325,14 @@ This is the basic structure of our workflow, but some of the tools have multiple
 
 When you click on this, you should see a sidebar where you can set the labels, step annotations, etc. pop up:
 
-.. image:: _static/sidebar-images/upload-workflow-11.png
+.. image:: _static/sidebar-images/upload-workflow11.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
 
 Hover over the sidebar and scroll down until you see **Tool Parameters:**
 
-.. image:: _static/sidebar-images/upload-workflow-12.png
+.. image:: _static/sidebar-images/upload-workflow12.png
    :alt: Creating a workflow
    :align: center
    :width: 600px
@@ -341,7 +341,7 @@ Change the input data type to **SampleData[PairedEndSequencesWithQuality]**, the
 
 Your qiime tools import tab should now look like this and take 2 input datasets as input:
 
-.. image:: _static/sidebar-images/upload-workflow-13.png
+.. image:: _static/sidebar-images/upload-workflow13.png
    :alt: Creating a workflow
    :align: center
    :width: 300px
@@ -373,28 +373,28 @@ Congratulations! Now you have a completed workflow. Now **let's add the input:**
 
 Click on the **inputs** tab on the far right and search for the **Input Dataset object.** Add two (one for simulated_metagenome_1.fq.gz and one for simulated_metagenome_2.fq.gz) and connect to our qiime2 tools import tab:
 
-.. image:: _static/sidebar-images/upload-workflow-14.png
+.. image:: _static/sidebar-images/upload-workflow14.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
 
 You can rename these in the parameter sidebar if you wish for clarity purposes:
 
-.. image:: _static/sidebar-images/upload-workflow-15.png
+.. image:: _static/sidebar-images/upload-workflow15.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
 
 Click **save + exit** on the far left toolbar to save our changes and return to the home screen.
 
-.. image:: _static/sidebar-images/upload-workflow-16.png
+.. image:: _static/sidebar-images/upload-workflow16.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
 
 You should now see our workflow present in **Workflows:**
 
-.. image:: _static/sidebar-images/upload-workflow-16.png
+.. image:: _static/sidebar-images/upload-workflow16.png
    :alt: Creating a workflow
    :align: center
    :width: 1200px
