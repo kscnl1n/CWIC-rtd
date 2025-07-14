@@ -148,8 +148,8 @@ Other ways to import workflows:
 - **TRS ID (Tool Registry Servers ID)**
     - You can also import directly from the GA4GH’s servers through TRS IDs and URLs directly.
 
-Creating a Workflow
-===================
+Creating Your Own Workflow
+--------------------------
 The CFDE workspace also allows you to **create your own workflows**, which allows you to tailor your pipeline to your specific needs, reproduce that pipeline, and share it with other users. 
 
 Below, we will walk you through the process of creating a pipeline for detecting antibiotic-resistant genes (ARGs) from metagenomic sequencing data (ex: stool sample reads) from publicly-available datasets. 
