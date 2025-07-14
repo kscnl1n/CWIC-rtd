@@ -24,3 +24,4 @@ The amount of bytes you are using should change to reflect this in the top right
    :align: center
    :width: 1200px
 
+*Example - this is an example of how many bytes are used. It will not necessarily reflect the amount of bytes that are in your CFDE allocation, though after purging a dataset, the amount of bytes you are using should decrease.

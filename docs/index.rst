@@ -98,6 +98,6 @@ Click 'next: Sidebar Tools' for information on how to use them.
    :caption: Other pages:
 
    /Sidebar/Sidebar
-   /Creating a Workflow/creating-workflow
+   /Datasets/datasets
    
 
