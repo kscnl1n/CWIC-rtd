@@ -345,6 +345,18 @@ Your qiime tools import tab should now look like this and take 2 input datasets 
    :alt: Creating a workflow
    :align: center
    :width: 300px
+   
+Now, click on **qiime2 dada2 denoise-paired** tab and change the values of **trunc_len_f** and **trunc_len_r** to appropriate integer values. For this workflow, change them to **trunc_len_f = 240** and **trunc_len_r = 200**.
+
+.. note::
+    **Choosing trunc_len** Values
+    240 and 200 will work for this workflow, but these values are gathered using FastQC.
+    If you’re unsure, do this first:
+        - Run FastQC on your uploaded .fastq files (it’s in Tools → Quality Control).
+        - Look at the Per base sequence quality graphs.
+        - Truncate where the average quality drops below ~Q30.
+        
+Click out of the tool to save.
 
 **Workflow summary**
 
@@ -371,6 +383,14 @@ This tool allows you to refine your dataset by filtering out rare features or th
 **6. qiime2 feature-classifier classify-sklearn**
 
 Here, you use a machine learning model — a naïve Bayes classifier — to assign taxonomy to your representative sequences. In the context of ARG detection, you would train this classifier on a custom antibiotic resistance gene (ARG) database like CARD, ResFinder, or ARG-ANNOT. Once trained, the classifier matches your ASVs to known ARG categories, producing a .qza taxonomy file that links your sequences to specific ARGs. This is how you derive biological meaning from your sequencing results.
+
+.. note::
+    This step will require an additonal upload of a **classifier model** to work!
+    Download the classifier here:
+    https://data.qiime2.org/2024.2/common/silva-138-99-515-806-nb-classifier.qza
+    *This will start a direct download in your browser.
+    
+    
 
 **7. Qiime2 feature-table heatmap**
 
@@ -411,6 +431,44 @@ Congratulations! You now have a completed workflow.
 Using Workflows
 ===============
 Let's test our new workflow out.
+
+In your **workflows** tab, mouse over the workflow you would like to run.
+
+Click the blue arrow button in the bottom right of your workflow to run it:
+
+.. image:: _static/sidebar-images/run-workflow1.png
+   :alt: Creating a workflow
+   :align: center
+   :width: 800px
+   
+You should now be taken to a screen that looks like the following:
+
+.. image:: _static/sidebar-images/run-workflow2.png
+   :alt: Creating a workflow
+   :align: center
+   :width: 1200px
+   
+Here you can see the two orange alert boxes saying **no datasets available.**
+
+For our workflow to run, we must first select a dataset to work with. Click on the first dataset input box (**metagenome_1**) to upload a dataset:
+
+.. image:: _static/sidebar-images/run-workflow3.png
+   :alt: Creating a workflow
+   :align: center
+   :width: 1200px
+
+Upload our downloaded **metagenome1.fq** and **metagenome2.fq** datasets to each tab respectively, then click **run workflow.**
+
+
+
+
+
+
+
+
+
+
+
 
 
 
