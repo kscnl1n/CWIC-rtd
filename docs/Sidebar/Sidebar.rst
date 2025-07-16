@@ -387,8 +387,15 @@ Here, you use a machine learning model — a naïve Bayes classifier — to assi
 .. note::
     This step will require an additonal upload of a **classifier model** to work!
     Download the classifier here:
+    
     https://data.qiime2.org/2024.2/common/silva-138-99-515-806-nb-classifier.qza
+    
     *This will start a direct download in your browser.
+    
+    When you have downloaded it, upload it into the CFDE Galaxy using the **Upload** box, then click **Step 8: classify-sklearn**, and change the model under **classifier** to the model you just uploaded.
+    
+.. note::
+    The CFDE Galaxy is still in development, so there may not be a way for you to upload this classifier model yet.
     
     
 
@@ -459,9 +466,19 @@ For our workflow to run, we must first select a dataset to work with. Click on t
 
 Upload our downloaded **metagenome1.fq** and **metagenome2.fq** datasets to each tab respectively, then click **run workflow.**
 
+Workflow Outputs
+----------------
+Any outputs to your workflow should be in the **History** tab to the right, including any .CSV, .XLSX, and .PNG files of graphs.
+
+Click the name of an output in the history panel to:
+    - View metadata
+    - See logs or error messages
+    - View the contents (if viewable)
+    - Download the file
+    
 
 
-
+Now that you know how to create and run your own workflow, click the next page to learn about the other tabs on the sidebar.
 
 
 
