@@ -476,7 +476,15 @@ Click the name of an output in the history panel to:
     - View the contents (if viewable)
     - Download the file
     
+Workflow Reports
+----------------
+Once you run a workflow for the first time, a new tab called **Workflow Reports** should pop up on the far right sidebar. You should be able to access a full report of your workflow here.
+    
+Workflow Invocations
+--------------------
+In the CFDE Galaxy workspace, a workflow invocation refers to the execution of a workflow. Each time a user runs a workflow, Galaxy logs the invocation along with detailed metadata, including the input datasets, output datasets, workflow version, runtime status, and timestamps.
 
+This feature allows users to monitor the progress of their analyses, identify any errors, and reproduce or re-run previous workflow executions with ease. It serves as a comprehensive audit trail for workflow-based analyses.
 
 Now that you know how to create and run your own workflow, click the next page to learn about the other tabs on the sidebar.
 

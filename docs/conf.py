@@ -6,7 +6,7 @@ import sys
 sys.path.insert(0, os.path.abspath('..'))  # or '.' if you're documenting a standalone project
 
 project = 'CFDE Workspace'
-author = 'Your Name'
+author = 'Kaylee Scanlin (scanlinsystems@gmail.com)'
 release = '0.1'
 master_doc = 'index'
 
