@@ -55,7 +55,7 @@ This opens the preexisting library of NIH-created analysis tools. A majority of 
 .. image:: _static/sidebar-images/tools1.png
    :alt: Tools
    :align: center
-   :width: 800px
+   :width: 400px
 
 Because of the volume of tools in the CFDE galaxy interface, there is a search bar for ease of finding.
 
@@ -77,6 +77,7 @@ Workflows
 **Workflows** are saved, pre-existing pipelines for data processing and analysis. Each step takes an input (dataset), sends it to a tool for one part of the processing pipeline, and then hands it off to the next tool for the next part. 
 
 The CFDE galaxy workspace does not come with pre-installed workflows–when you open the workflow space, you should see that they are empty:
+
 .. image:: _static/sidebar-images/workflow1.png
    :alt: Empty workflows page
    :align: center
@@ -88,12 +89,15 @@ The CFDE galaxy workspace does not come with pre-installed workflows–when you 
    :width: 1200px
 
 **My Workflows**
-This is where you can find workflows you have installed into your Galaxy workspace. 
+
+This is where you can find workflows you have installed into your Galaxy workspace.
 
 **Workflows Shared with Me**
-This is where you can find workflows you have with other people. 
+
+This is where you can find workflows you have with other people.
 
 **Public Workflows**
+
 Public workflows are ones publicly-available for anyone to download.
 Because the CFDE galaxy is still in development, there are currently no workflows available for download.
 
@@ -104,7 +108,7 @@ To the far right of the Workflows tab, you should see two buttons create and imp
 .. image:: _static/sidebar-images/workflow3.png
    :alt: Empty workflows page
    :align: center
-   :width: 400px
+   :width: 250px
 
 **Importing a Workflow**
 
@@ -136,7 +140,7 @@ There are 3 ways to install a new workflow:
   - Click **Download.ga** (the Galaxy workflow file)
   - Upload it using the **Import** button in Galaxy
 
-Other ways to import workflows:
+**Other ways to import workflows:**
 
 - **Paste a workflow URL**
 
@@ -224,15 +228,15 @@ When you open your workflow, you will see a multitude of tools on the sidebar:
 
     - Use this if you want rich formatting in your comments or section headers in your workflow–essentially text comments with italics, bold, and superscripts.
 
-**Frame Comment** - Create a visual grouping through drawing rectangle frames around objects.
+- **Frame Comment** - Create a visual grouping through drawing rectangle frames around objects.
 
-**Freehand Pen** - Draw freehand lines for custom annotations.
+- **Freehand Pen** - Draw freehand lines for custom annotations.
 
-**Freehand Eraser** - Erase freehand drawings.
+- **Freehand Eraser** - Erase freehand drawings.
 
-**Box Select** - Select multiple elements at once.
+- **Box Select** - Select multiple elements at once.
 
-**Auto Layout** - Automatically arrange all steps and tools using AI.
+- **Auto Layout** - Automatically arrange all steps and tools using AI.
 
 As you can see, the Workflow editor is almost like a Figma board, where you can see and **edit the steps to your workflow in real-time with a GUI.**
 
@@ -335,7 +339,7 @@ Hover over the sidebar and scroll down until you see **Tool Parameters:**
 .. image:: _static/sidebar-images/upload-workflow12.png
    :alt: Creating a workflow
    :align: center
-   :width: 600px
+   :width: 400px
 
 Change the input data type to **SampleData[PairedEndSequencesWithQuality]**, the kind of dataset we uploaded. Leave the default settings as is and collapse the sidebar.
 

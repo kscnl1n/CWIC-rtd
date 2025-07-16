@@ -57,4 +57,6 @@ Users can import data from a Library into their own Galaxy history without affec
    
 As you can see, the only pre-installed library in the CFDE workspace is the **MoTrPAC**, a collaborative project that collects and analyzes biological samples from both humans and animal models before and after physical activity.
 
-You have now reached the end of the documentation website. Happy analyzing!
+You have now reached the end of the documentation website.
+----------------------------------------------------------
+Happy analyzing!
